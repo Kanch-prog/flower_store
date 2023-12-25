@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.form-container {
+    display: flex;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form container */
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+
+.shipping-info {
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.shipping-info h2 {
+    margin-bottom: 80px;
+}
+
+.shipping-info label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.shipping-info input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.order-summary {
+    margin-left: 120px; /* Adjust the margin as needed */
+}
+
+.payment-actions {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.payment-actions a,
+.payment-actions input[type="submit"] {
+    background-color: #bb7788;
+    color: white;
+    border: none;
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.payment-actions a:hover,
+.payment-actions input[type="submit"]:hover {
+    background-color: #df05ac;
+}
+
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cart-actions a,
+.cart-actions input[type="submit"] {
+    background-color: #bb7788;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart-actions a:hover,
+.cart-actions input[type="submit"]:hover {
+    background-color: #df05ac;
+}
